@@ -1,0 +1,2740 @@
+{
+  "index": {
+    "version": "0.7.2",
+    "fields": [
+      {
+        "name": "title",
+        "boost": 10
+      },
+      {
+        "name": "body",
+        "boost": 1
+      }
+    ],
+    "ref": "url",
+    "tokenizer": "default",
+    "documentStore": {
+      "store": {
+        "index.html": [
+          "angular2",
+          "bar",
+          "bootstrap",
+          "build",
+          "chart",
+          "compon",
+          "deploy",
+          "doc",
+          "docs:deploy",
+          "https://greengerong.github.io/ng2",
+          "https://greengerong.github.io/rebirth",
+          "index",
+          "line",
+          "link",
+          "match",
+          "npm",
+          "pie",
+          "plugin",
+          "readm",
+          "rebirth",
+          "rebirth/chart",
+          "rebirth/ui",
+          "rebith",
+          "result",
+          "run",
+          "serv",
+          "start",
+          "ui"
+        ],
+        "overview.html": [
+          "1",
+          "2",
+          "browser",
+          "compon",
+          "inject",
+          "match",
+          "modul",
+          "out",
+          "overview",
+          "reset",
+          "result",
+          "support",
+          "svg",
+          "zoom"
+        ],
+        "modules.html": [
+          "brows",
+          "browser",
+          "chartmodul",
+          "match",
+          "modul",
+          "rebirthchartmodul",
+          "result",
+          "support",
+          "svg"
+        ],
+        "modules/ChartModule.html": [
+          "angular/common",
+          "angular/cor",
+          "browser",
+          "chart.compon",
+          "chartcompon",
+          "chartmodul",
+          "class",
+          "commonmodul",
+          "declar",
+          "export",
+          "file",
+          "import",
+          "info",
+          "match",
+          "modul",
+          "ngmodul",
+          "out",
+          "provid",
+          "reset",
+          "result",
+          "sourc",
+          "src/app/exports/chart/chart.module.t",
+          "support",
+          "svg",
+          "zoom"
+        ],
+        "modules/RebirthChartModule.html": [
+          "angular/cor",
+          "browser",
+          "chart",
+          "chart.config",
+          "chart.module.t",
+          "chartmodul",
+          "class",
+          "declar",
+          "export",
+          "file",
+          "forroot",
+          "import",
+          "info",
+          "match",
+          "modul",
+          "modulewithprovid",
+          "ngmodul",
+          "out",
+          "provid",
+          "rebirth",
+          "rebirthchartconfig",
+          "rebirthchartmodul",
+          "reset",
+          "result",
+          "return",
+          "sourc",
+          "src/app/exports/rebirth",
+          "static",
+          "support",
+          "svg",
+          "useclass",
+          "zoom"
+        ],
+        "components/ChartComponent.html": [
+          "angular/cor",
+          "changedetect",
+          "changedetectionstrategi",
+          "changedetectionstrategy.onpush",
+          "chart",
+          "chart.component.html",
+          "chart.component.scss",
+          "chartcompon",
+          "class",
+          "compon",
+          "export",
+          "exporta",
+          "file",
+          "implement",
+          "import",
+          "info",
+          "line",
+          "match",
+          "metadata",
+          "ngondestroy",
+          "ondestroy",
+          "re",
+          "readm",
+          "result",
+          "selector",
+          "sourc",
+          "src/app/exports/chart/chart.component.t",
+          "styleurl",
+          "templateurl",
+          "void"
+        ],
+        "injectables/RebirthChartConfig.html": [
+          "angular/cor",
+          "chart.config.t",
+          "class",
+          "export",
+          "file",
+          "import",
+          "info",
+          "inject",
+          "locale_id",
+          "match",
+          "rebirthchartconfig",
+          "result",
+          "sourc",
+          "src/app/exports/rebirth",
+          "viewcontainerref"
+        ],
+        "coverage.html": [
+          "0",
+          "0/0",
+          "0/1",
+          "chart.config.t",
+          "chartcompon",
+          "compon",
+          "coverag",
+          "document",
+          "file",
+          "identifi",
+          "inject",
+          "match",
+          "project",
+          "rebirthchartconfig",
+          "result",
+          "src/app/exports/chart/chart.component.t",
+          "src/app/exports/rebirth",
+          "statement",
+          "type"
+        ]
+      },
+      "length": 8
+    },
+    "tokenStore": {
+      "root": {
+        "0": {
+          "docs": {
+            "coverage.html": {
+              "ref": "coverage.html",
+              "tf": 0.13043478260869565
+            }
+          },
+          "/": {
+            "0": {
+              "docs": {
+                "coverage.html": {
+                  "ref": "coverage.html",
+                  "tf": 0.043478260869565216
+                }
+              }
+            },
+            "1": {
+              "docs": {
+                "coverage.html": {
+                  "ref": "coverage.html",
+                  "tf": 0.043478260869565216
+                }
+              }
+            },
+            "docs": {}
+          }
+        },
+        "1": {
+          "docs": {
+            "overview.html": {
+              "ref": "overview.html",
+              "tf": 0.1111111111111111
+            }
+          }
+        },
+        "2": {
+          "docs": {
+            "overview.html": {
+              "ref": "overview.html",
+              "tf": 0.05555555555555555
+            }
+          }
+        },
+        "docs": {},
+        "a": {
+          "docs": {},
+          "n": {
+            "docs": {},
+            "g": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "r": {
+                      "2": {
+                        "docs": {
+                          "index.html": {
+                            "ref": "index.html",
+                            "tf": 0.02631578947368421
+                          }
+                        }
+                      },
+                      "docs": {},
+                      "/": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "m": {
+                              "docs": {},
+                              "m": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "n": {
+                                    "docs": {
+                                      "modules/ChartModule.html": {
+                                        "ref": "modules/ChartModule.html",
+                                        "tf": 0.024390243902439025
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "r": {
+                              "docs": {
+                                "modules/ChartModule.html": {
+                                  "ref": "modules/ChartModule.html",
+                                  "tf": 0.024390243902439025
+                                },
+                                "modules/RebirthChartModule.html": {
+                                  "ref": "modules/RebirthChartModule.html",
+                                  "tf": 0.018518518518518517
+                                },
+                                "components/ChartComponent.html": {
+                                  "ref": "components/ChartComponent.html",
+                                  "tf": 0.02
+                                },
+                                "injectables/RebirthChartConfig.html": {
+                                  "ref": "injectables/RebirthChartConfig.html",
+                                  "tf": 0.047619047619047616
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "b": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "r": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.02631578947368421
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "t": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "a": {
+                        "docs": {},
+                        "p": {
+                          "docs": {
+                            "index.html": {
+                              "ref": "index.html",
+                              "tf": 0.02631578947368421
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 0.02631578947368421
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "w": {
+                "docs": {},
+                "s": {
+                  "docs": {
+                    "modules.html": {
+                      "ref": "modules.html",
+                      "tf": 0.13333333333333333
+                    }
+                  },
+                  "e": {
+                    "docs": {},
+                    "r": {
+                      "docs": {
+                        "overview.html": {
+                          "ref": "overview.html",
+                          "tf": 0.05555555555555555
+                        },
+                        "modules.html": {
+                          "ref": "modules.html",
+                          "tf": 0.13333333333333333
+                        },
+                        "modules/ChartModule.html": {
+                          "ref": "modules/ChartModule.html",
+                          "tf": 0.024390243902439025
+                        },
+                        "modules/RebirthChartModule.html": {
+                          "ref": "modules/RebirthChartModule.html",
+                          "tf": 0.018518518518518517
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "c": {
+          "docs": {},
+          "h": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 0.10526315789473684
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 0.018518518518518517
+                    },
+                    "components/ChartComponent.html": {
+                      "ref": "components/ChartComponent.html",
+                      "tf": 0.12
+                    }
+                  },
+                  "m": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "d": {
+                        "docs": {},
+                        "u": {
+                          "docs": {},
+                          "l": {
+                            "docs": {
+                              "modules.html": {
+                                "ref": "modules.html",
+                                "tf": 0.06666666666666667
+                              },
+                              "modules/ChartModule.html": {
+                                "ref": "modules/ChartModule.html",
+                                "tf": 5.048780487804878
+                              },
+                              "modules/RebirthChartModule.html": {
+                                "ref": "modules/RebirthChartModule.html",
+                                "tf": 0.09259259259259259
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  ".": {
+                    "docs": {},
+                    "c": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "m": {
+                          "docs": {},
+                          "p": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "n": {
+                                "docs": {
+                                  "modules/ChartModule.html": {
+                                    "ref": "modules/ChartModule.html",
+                                    "tf": 0.024390243902439025
+                                  }
+                                },
+                                "e": {
+                                  "docs": {},
+                                  "n": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      ".": {
+                                        "docs": {},
+                                        "h": {
+                                          "docs": {},
+                                          "t": {
+                                            "docs": {},
+                                            "m": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {
+                                                  "components/ChartComponent.html": {
+                                                    "ref": "components/ChartComponent.html",
+                                                    "tf": 0.04
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "s": {
+                                          "docs": {},
+                                          "c": {
+                                            "docs": {},
+                                            "s": {
+                                              "docs": {},
+                                              "s": {
+                                                "docs": {
+                                                  "components/ChartComponent.html": {
+                                                    "ref": "components/ChartComponent.html",
+                                                    "tf": 0.04
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "n": {
+                          "docs": {},
+                          "f": {
+                            "docs": {},
+                            "i": {
+                              "docs": {},
+                              "g": {
+                                "docs": {
+                                  "modules/RebirthChartModule.html": {
+                                    "ref": "modules/RebirthChartModule.html",
+                                    "tf": 0.018518518518518517
+                                  }
+                                },
+                                ".": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "injectables/RebirthChartConfig.html": {
+                                        "ref": "injectables/RebirthChartConfig.html",
+                                        "tf": 0.047619047619047616
+                                      },
+                                      "coverage.html": {
+                                        "ref": "coverage.html",
+                                        "tf": 0.043478260869565216
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "m": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "d": {
+                          "docs": {},
+                          "u": {
+                            "docs": {},
+                            "l": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                ".": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {
+                                      "modules/RebirthChartModule.html": {
+                                        "ref": "modules/RebirthChartModule.html",
+                                        "tf": 0.018518518518518517
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "c": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "m": {
+                        "docs": {},
+                        "p": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "n": {
+                              "docs": {
+                                "modules/ChartModule.html": {
+                                  "ref": "modules/ChartModule.html",
+                                  "tf": 0.12195121951219512
+                                },
+                                "components/ChartComponent.html": {
+                                  "ref": "components/ChartComponent.html",
+                                  "tf": 5.04
+                                },
+                                "coverage.html": {
+                                  "ref": "coverage.html",
+                                  "tf": 0.043478260869565216
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "n": {
+                "docs": {},
+                "g": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "d": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "c": {
+                              "docs": {},
+                              "t": {
+                                "docs": {
+                                  "components/ChartComponent.html": {
+                                    "ref": "components/ChartComponent.html",
+                                    "tf": 0.04
+                                  }
+                                },
+                                "i": {
+                                  "docs": {},
+                                  "o": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {},
+                                          "r": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "t": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "g": {
+                                                    "docs": {},
+                                                    "i": {
+                                                      "docs": {
+                                                        "components/ChartComponent.html": {
+                                                          "ref": "components/ChartComponent.html",
+                                                          "tf": 0.02
+                                                        }
+                                                      }
+                                                    },
+                                                    "y": {
+                                                      "docs": {},
+                                                      ".": {
+                                                        "docs": {},
+                                                        "o": {
+                                                          "docs": {},
+                                                          "n": {
+                                                            "docs": {},
+                                                            "p": {
+                                                              "docs": {},
+                                                              "u": {
+                                                                "docs": {},
+                                                                "s": {
+                                                                  "docs": {},
+                                                                  "h": {
+                                                                    "docs": {
+                                                                      "components/ChartComponent.html": {
+                                                                        "ref": "components/ChartComponent.html",
+                                                                        "tf": 0.04
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "index.html": {
+                        "ref": "index.html",
+                        "tf": 0.02631578947368421
+                      },
+                      "overview.html": {
+                        "ref": "overview.html",
+                        "tf": 0.05555555555555555
+                      },
+                      "components/ChartComponent.html": {
+                        "ref": "components/ChartComponent.html",
+                        "tf": 5.06
+                      },
+                      "coverage.html": {
+                        "ref": "coverage.html",
+                        "tf": 0.043478260869565216
+                      }
+                    }
+                  }
+                }
+              },
+              "m": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "m": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "d": {
+                          "docs": {},
+                          "u": {
+                            "docs": {},
+                            "l": {
+                              "docs": {
+                                "modules/ChartModule.html": {
+                                  "ref": "modules/ChartModule.html",
+                                  "tf": 0.04878048780487805
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "g": {
+                      "docs": {
+                        "coverage.html": {
+                          "ref": "coverage.html",
+                          "tf": 10.043478260869565
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "s": {
+                  "docs": {
+                    "modules/ChartModule.html": {
+                      "ref": "modules/ChartModule.html",
+                      "tf": 0.024390243902439025
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 0.018518518518518517
+                    },
+                    "components/ChartComponent.html": {
+                      "ref": "components/ChartComponent.html",
+                      "tf": 0.02
+                    },
+                    "injectables/RebirthChartConfig.html": {
+                      "ref": "injectables/RebirthChartConfig.html",
+                      "tf": 0.047619047619047616
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "d": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "y": {
+                    "docs": {
+                      "index.html": {
+                        "ref": "index.html",
+                        "tf": 0.02631578947368421
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "modules/ChartModule.html": {
+                        "ref": "modules/ChartModule.html",
+                        "tf": 0.04878048780487805
+                      },
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.018518518518518517
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "c": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.02631578947368421
+                }
+              },
+              "s": {
+                "docs": {},
+                ":": {
+                  "docs": {},
+                  "d": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "p": {
+                        "docs": {},
+                        "l": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "y": {
+                              "docs": {
+                                "index.html": {
+                                  "ref": "index.html",
+                                  "tf": 0.02631578947368421
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "u": {
+                "docs": {},
+                "m": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "t": {
+                        "docs": {
+                          "coverage.html": {
+                            "ref": "coverage.html",
+                            "tf": 0.043478260869565216
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "h": {
+          "docs": {},
+          "t": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  ":": {
+                    "docs": {},
+                    "/": {
+                      "docs": {},
+                      "/": {
+                        "docs": {},
+                        "g": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "n": {
+                                  "docs": {},
+                                  "g": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "r": {
+                                        "docs": {},
+                                        "o": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {},
+                                            "g": {
+                                              "docs": {},
+                                              ".": {
+                                                "docs": {},
+                                                "g": {
+                                                  "docs": {},
+                                                  "i": {
+                                                    "docs": {},
+                                                    "t": {
+                                                      "docs": {},
+                                                      "h": {
+                                                        "docs": {},
+                                                        "u": {
+                                                          "docs": {},
+                                                          "b": {
+                                                            "docs": {},
+                                                            ".": {
+                                                              "docs": {},
+                                                              "i": {
+                                                                "docs": {},
+                                                                "o": {
+                                                                  "docs": {},
+                                                                  "/": {
+                                                                    "docs": {},
+                                                                    "n": {
+                                                                      "docs": {},
+                                                                      "g": {
+                                                                        "2": {
+                                                                          "docs": {
+                                                                            "index.html": {
+                                                                              "ref": "index.html",
+                                                                              "tf": 0.02631578947368421
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "docs": {}
+                                                                      }
+                                                                    },
+                                                                    "r": {
+                                                                      "docs": {},
+                                                                      "e": {
+                                                                        "docs": {},
+                                                                        "b": {
+                                                                          "docs": {},
+                                                                          "i": {
+                                                                            "docs": {},
+                                                                            "r": {
+                                                                              "docs": {},
+                                                                              "t": {
+                                                                                "docs": {},
+                                                                                "h": {
+                                                                                  "docs": {
+                                                                                    "index.html": {
+                                                                                      "ref": "index.html",
+                                                                                      "tf": 0.02631578947368421
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "i": {
+          "docs": {},
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "x": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 5
+                    }
+                  }
+                }
+              }
+            },
+            "j": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "overview.html": {
+                        "ref": "overview.html",
+                        "tf": 0.05555555555555555
+                      },
+                      "injectables/RebirthChartConfig.html": {
+                        "ref": "injectables/RebirthChartConfig.html",
+                        "tf": 5.190476190476191
+                      },
+                      "coverage.html": {
+                        "ref": "coverage.html",
+                        "tf": 0.043478260869565216
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "f": {
+              "docs": {},
+              "o": {
+                "docs": {
+                  "modules/ChartModule.html": {
+                    "ref": "modules/ChartModule.html",
+                    "tf": 0.024390243902439025
+                  },
+                  "modules/RebirthChartModule.html": {
+                    "ref": "modules/RebirthChartModule.html",
+                    "tf": 0.018518518518518517
+                  },
+                  "components/ChartComponent.html": {
+                    "ref": "components/ChartComponent.html",
+                    "tf": 0.02
+                  },
+                  "injectables/RebirthChartConfig.html": {
+                    "ref": "injectables/RebirthChartConfig.html",
+                    "tf": 0.047619047619047616
+                  }
+                }
+              }
+            }
+          },
+          "m": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "modules/ChartModule.html": {
+                        "ref": "modules/ChartModule.html",
+                        "tf": 0.0975609756097561
+                      },
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.09259259259259259
+                      },
+                      "components/ChartComponent.html": {
+                        "ref": "components/ChartComponent.html",
+                        "tf": 0.02
+                      },
+                      "injectables/RebirthChartConfig.html": {
+                        "ref": "injectables/RebirthChartConfig.html",
+                        "tf": 0.047619047619047616
+                      }
+                    }
+                  }
+                }
+              },
+              "l": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "t": {
+                          "docs": {
+                            "components/ChartComponent.html": {
+                              "ref": "components/ChartComponent.html",
+                              "tf": 0.02
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "f": {
+                      "docs": {},
+                      "i": {
+                        "docs": {
+                          "coverage.html": {
+                            "ref": "coverage.html",
+                            "tf": 0.043478260869565216
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "l": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "n": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "index.html": {
+                    "ref": "index.html",
+                    "tf": 0.02631578947368421
+                  },
+                  "components/ChartComponent.html": {
+                    "ref": "components/ChartComponent.html",
+                    "tf": 0.02
+                  }
+                }
+              },
+              "k": {
+                "docs": {
+                  "index.html": {
+                    "ref": "index.html",
+                    "tf": 0.05263157894736842
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "_": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "d": {
+                          "docs": {
+                            "injectables/RebirthChartConfig.html": {
+                              "ref": "injectables/RebirthChartConfig.html",
+                              "tf": 0.047619047619047616
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "m": {
+          "docs": {},
+          "a": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "h": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 0.05263157894736842
+                    },
+                    "overview.html": {
+                      "ref": "overview.html",
+                      "tf": 0.1111111111111111
+                    },
+                    "modules.html": {
+                      "ref": "modules.html",
+                      "tf": 0.13333333333333333
+                    },
+                    "modules/ChartModule.html": {
+                      "ref": "modules/ChartModule.html",
+                      "tf": 0.04878048780487805
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 0.037037037037037035
+                    },
+                    "components/ChartComponent.html": {
+                      "ref": "components/ChartComponent.html",
+                      "tf": 0.04
+                    },
+                    "injectables/RebirthChartConfig.html": {
+                      "ref": "injectables/RebirthChartConfig.html",
+                      "tf": 0.09523809523809523
+                    },
+                    "coverage.html": {
+                      "ref": "coverage.html",
+                      "tf": 0.08695652173913043
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "l": {
+                  "docs": {
+                    "overview.html": {
+                      "ref": "overview.html",
+                      "tf": 0.05555555555555555
+                    },
+                    "modules.html": {
+                      "ref": "modules.html",
+                      "tf": 10.066666666666666
+                    },
+                    "modules/ChartModule.html": {
+                      "ref": "modules/ChartModule.html",
+                      "tf": 5.024390243902439
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 5.018518518518518
+                    }
+                  },
+                  "e": {
+                    "docs": {},
+                    "w": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "t": {
+                          "docs": {},
+                          "h": {
+                            "docs": {},
+                            "p": {
+                              "docs": {},
+                              "r": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "v": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {},
+                                      "d": {
+                                        "docs": {
+                                          "modules/RebirthChartModule.html": {
+                                            "ref": "modules/RebirthChartModule.html",
+                                            "tf": 0.037037037037037035
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "e": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "a": {
+                        "docs": {
+                          "components/ChartComponent.html": {
+                            "ref": "components/ChartComponent.html",
+                            "tf": 0.02
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "n": {
+          "docs": {},
+          "p": {
+            "docs": {},
+            "m": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.05263157894736842
+                }
+              }
+            }
+          },
+          "g": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "u": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "modules/ChartModule.html": {
+                          "ref": "modules/ChartModule.html",
+                          "tf": 0.04878048780487805
+                        },
+                        "modules/RebirthChartModule.html": {
+                          "ref": "modules/RebirthChartModule.html",
+                          "tf": 0.05555555555555555
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "o": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "d": {
+                  "docs": {},
+                  "e": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "r": {
+                          "docs": {},
+                          "o": {
+                            "docs": {},
+                            "y": {
+                              "docs": {
+                                "components/ChartComponent.html": {
+                                  "ref": "components/ChartComponent.html",
+                                  "tf": 0.02
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "p": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "e": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.02631578947368421
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "g": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "index.html": {
+                        "ref": "index.html",
+                        "tf": 0.02631578947368421
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "v": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "modules/ChartModule.html": {
+                        "ref": "modules/ChartModule.html",
+                        "tf": 0.024390243902439025
+                      },
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.05555555555555555
+                      }
+                    }
+                  }
+                }
+              },
+              "j": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "c": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "coverage.html": {
+                          "ref": "coverage.html",
+                          "tf": 0.043478260869565216
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "r": {
+          "docs": {},
+          "e": {
+            "docs": {
+              "components/ChartComponent.html": {
+                "ref": "components/ChartComponent.html",
+                "tf": 0.04
+              }
+            },
+            "a": {
+              "docs": {},
+              "d": {
+                "docs": {},
+                "m": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 5
+                    },
+                    "components/ChartComponent.html": {
+                      "ref": "components/ChartComponent.html",
+                      "tf": 0.02
+                    }
+                  }
+                }
+              }
+            },
+            "b": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "h": {
+                      "docs": {
+                        "index.html": {
+                          "ref": "index.html",
+                          "tf": 0.02631578947368421
+                        },
+                        "modules/RebirthChartModule.html": {
+                          "ref": "modules/RebirthChartModule.html",
+                          "tf": 0.018518518518518517
+                        }
+                      },
+                      "/": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "h": {
+                            "docs": {},
+                            "a": {
+                              "docs": {},
+                              "r": {
+                                "docs": {},
+                                "t": {
+                                  "docs": {
+                                    "index.html": {
+                                      "ref": "index.html",
+                                      "tf": 0.05263157894736842
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "u": {
+                          "docs": {},
+                          "i": {
+                            "docs": {
+                              "index.html": {
+                                "ref": "index.html",
+                                "tf": 0.02631578947368421
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "c": {
+                        "docs": {},
+                        "h": {
+                          "docs": {},
+                          "a": {
+                            "docs": {},
+                            "r": {
+                              "docs": {},
+                              "t": {
+                                "docs": {},
+                                "m": {
+                                  "docs": {},
+                                  "o": {
+                                    "docs": {},
+                                    "d": {
+                                      "docs": {},
+                                      "u": {
+                                        "docs": {},
+                                        "l": {
+                                          "docs": {
+                                            "modules.html": {
+                                              "ref": "modules.html",
+                                              "tf": 0.06666666666666667
+                                            },
+                                            "modules/RebirthChartModule.html": {
+                                              "ref": "modules/RebirthChartModule.html",
+                                              "tf": 5.074074074074074
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "c": {
+                                  "docs": {},
+                                  "o": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {},
+                                      "f": {
+                                        "docs": {},
+                                        "i": {
+                                          "docs": {},
+                                          "g": {
+                                            "docs": {
+                                              "modules/RebirthChartModule.html": {
+                                                "ref": "modules/RebirthChartModule.html",
+                                                "tf": 0.037037037037037035
+                                              },
+                                              "injectables/RebirthChartConfig.html": {
+                                                "ref": "injectables/RebirthChartConfig.html",
+                                                "tf": 5.095238095238095
+                                              },
+                                              "coverage.html": {
+                                                "ref": "coverage.html",
+                                                "tf": 0.043478260869565216
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "t": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "index.html": {
+                        "ref": "index.html",
+                        "tf": 0.02631578947368421
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "s": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "index.html": {
+                        "ref": "index.html",
+                        "tf": 0.05263157894736842
+                      },
+                      "overview.html": {
+                        "ref": "overview.html",
+                        "tf": 0.1111111111111111
+                      },
+                      "modules.html": {
+                        "ref": "modules.html",
+                        "tf": 0.13333333333333333
+                      },
+                      "modules/ChartModule.html": {
+                        "ref": "modules/ChartModule.html",
+                        "tf": 0.04878048780487805
+                      },
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.037037037037037035
+                      },
+                      "components/ChartComponent.html": {
+                        "ref": "components/ChartComponent.html",
+                        "tf": 0.04
+                      },
+                      "injectables/RebirthChartConfig.html": {
+                        "ref": "injectables/RebirthChartConfig.html",
+                        "tf": 0.09523809523809523
+                      },
+                      "coverage.html": {
+                        "ref": "coverage.html",
+                        "tf": 0.08695652173913043
+                      }
+                    }
+                  }
+                }
+              },
+              "e": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "overview.html": {
+                      "ref": "overview.html",
+                      "tf": 0.05555555555555555
+                    },
+                    "modules/ChartModule.html": {
+                      "ref": "modules/ChartModule.html",
+                      "tf": 0.024390243902439025
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 0.018518518518518517
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.018518518518518517
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "n": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.05263157894736842
+                }
+              }
+            }
+          }
+        },
+        "s": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "v": {
+                "docs": {
+                  "index.html": {
+                    "ref": "index.html",
+                    "tf": 0.02631578947368421
+                  }
+                }
+              }
+            },
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "o": {
+                      "docs": {},
+                      "r": {
+                        "docs": {
+                          "components/ChartComponent.html": {
+                            "ref": "components/ChartComponent.html",
+                            "tf": 0.04
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "a": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "index.html": {
+                      "ref": "index.html",
+                      "tf": 0.07894736842105263
+                    }
+                  }
+                }
+              },
+              "t": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "c": {
+                    "docs": {
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.018518518518518517
+                      }
+                    }
+                  }
+                },
+                "e": {
+                  "docs": {},
+                  "m": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "t": {
+                          "docs": {
+                            "coverage.html": {
+                              "ref": "coverage.html",
+                              "tf": 0.043478260869565216
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "y": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "u": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "l": {
+                        "docs": {
+                          "components/ChartComponent.html": {
+                            "ref": "components/ChartComponent.html",
+                            "tf": 0.04
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "u": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "overview.html": {
+                          "ref": "overview.html",
+                          "tf": 0.05555555555555555
+                        },
+                        "modules.html": {
+                          "ref": "modules.html",
+                          "tf": 0.13333333333333333
+                        },
+                        "modules/ChartModule.html": {
+                          "ref": "modules/ChartModule.html",
+                          "tf": 0.024390243902439025
+                        },
+                        "modules/RebirthChartModule.html": {
+                          "ref": "modules/RebirthChartModule.html",
+                          "tf": 0.018518518518518517
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "g": {
+              "docs": {
+                "overview.html": {
+                  "ref": "overview.html",
+                  "tf": 0.05555555555555555
+                },
+                "modules.html": {
+                  "ref": "modules.html",
+                  "tf": 0.13333333333333333
+                },
+                "modules/ChartModule.html": {
+                  "ref": "modules/ChartModule.html",
+                  "tf": 0.024390243902439025
+                },
+                "modules/RebirthChartModule.html": {
+                  "ref": "modules/RebirthChartModule.html",
+                  "tf": 0.018518518518518517
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "c": {
+                  "docs": {
+                    "modules/ChartModule.html": {
+                      "ref": "modules/ChartModule.html",
+                      "tf": 0.024390243902439025
+                    },
+                    "modules/RebirthChartModule.html": {
+                      "ref": "modules/RebirthChartModule.html",
+                      "tf": 0.018518518518518517
+                    },
+                    "components/ChartComponent.html": {
+                      "ref": "components/ChartComponent.html",
+                      "tf": 0.02
+                    },
+                    "injectables/RebirthChartConfig.html": {
+                      "ref": "injectables/RebirthChartConfig.html",
+                      "tf": 0.047619047619047616
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "r": {
+            "docs": {},
+            "c": {
+              "docs": {},
+              "/": {
+                "docs": {},
+                "a": {
+                  "docs": {},
+                  "p": {
+                    "docs": {},
+                    "p": {
+                      "docs": {},
+                      "/": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "x": {
+                            "docs": {},
+                            "p": {
+                              "docs": {},
+                              "o": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "s": {
+                                      "docs": {},
+                                      "/": {
+                                        "docs": {},
+                                        "c": {
+                                          "docs": {},
+                                          "h": {
+                                            "docs": {},
+                                            "a": {
+                                              "docs": {},
+                                              "r": {
+                                                "docs": {},
+                                                "t": {
+                                                  "docs": {},
+                                                  "/": {
+                                                    "docs": {},
+                                                    "c": {
+                                                      "docs": {},
+                                                      "h": {
+                                                        "docs": {},
+                                                        "a": {
+                                                          "docs": {},
+                                                          "r": {
+                                                            "docs": {},
+                                                            "t": {
+                                                              "docs": {},
+                                                              ".": {
+                                                                "docs": {},
+                                                                "m": {
+                                                                  "docs": {},
+                                                                  "o": {
+                                                                    "docs": {},
+                                                                    "d": {
+                                                                      "docs": {},
+                                                                      "u": {
+                                                                        "docs": {},
+                                                                        "l": {
+                                                                          "docs": {},
+                                                                          "e": {
+                                                                            "docs": {},
+                                                                            ".": {
+                                                                              "docs": {},
+                                                                              "t": {
+                                                                                "docs": {
+                                                                                  "modules/ChartModule.html": {
+                                                                                    "ref": "modules/ChartModule.html",
+                                                                                    "tf": 0.024390243902439025
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "c": {
+                                                                  "docs": {},
+                                                                  "o": {
+                                                                    "docs": {},
+                                                                    "m": {
+                                                                      "docs": {},
+                                                                      "p": {
+                                                                        "docs": {},
+                                                                        "o": {
+                                                                          "docs": {},
+                                                                          "n": {
+                                                                            "docs": {},
+                                                                            "e": {
+                                                                              "docs": {},
+                                                                              "n": {
+                                                                                "docs": {},
+                                                                                "t": {
+                                                                                  "docs": {},
+                                                                                  ".": {
+                                                                                    "docs": {},
+                                                                                    "t": {
+                                                                                      "docs": {
+                                                                                        "components/ChartComponent.html": {
+                                                                                          "ref": "components/ChartComponent.html",
+                                                                                          "tf": 0.02
+                                                                                        },
+                                                                                        "coverage.html": {
+                                                                                          "ref": "coverage.html",
+                                                                                          "tf": 0.043478260869565216
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "r": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "b": {
+                                              "docs": {},
+                                              "i": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {},
+                                                  "t": {
+                                                    "docs": {},
+                                                    "h": {
+                                                      "docs": {
+                                                        "modules/RebirthChartModule.html": {
+                                                          "ref": "modules/RebirthChartModule.html",
+                                                          "tf": 0.018518518518518517
+                                                        },
+                                                        "injectables/RebirthChartConfig.html": {
+                                                          "ref": "injectables/RebirthChartConfig.html",
+                                                          "tf": 0.047619047619047616
+                                                        },
+                                                        "coverage.html": {
+                                                          "ref": "coverage.html",
+                                                          "tf": 0.043478260869565216
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "u": {
+          "docs": {},
+          "i": {
+            "docs": {
+              "index.html": {
+                "ref": "index.html",
+                "tf": 0.05263157894736842
+              }
+            }
+          },
+          "s": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "c": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "s": {
+                      "docs": {},
+                      "s": {
+                        "docs": {
+                          "modules/RebirthChartModule.html": {
+                            "ref": "modules/RebirthChartModule.html",
+                            "tf": 0.018518518518518517
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "o": {
+          "docs": {},
+          "u": {
+            "docs": {},
+            "t": {
+              "docs": {
+                "overview.html": {
+                  "ref": "overview.html",
+                  "tf": 0.05555555555555555
+                },
+                "modules/ChartModule.html": {
+                  "ref": "modules/ChartModule.html",
+                  "tf": 0.024390243902439025
+                },
+                "modules/RebirthChartModule.html": {
+                  "ref": "modules/RebirthChartModule.html",
+                  "tf": 0.018518518518518517
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "v": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "w": {
+                        "docs": {
+                          "overview.html": {
+                            "ref": "overview.html",
+                            "tf": 10.055555555555555
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "n": {
+            "docs": {},
+            "d": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "s": {
+                  "docs": {},
+                  "t": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "o": {
+                        "docs": {},
+                        "y": {
+                          "docs": {
+                            "components/ChartComponent.html": {
+                              "ref": "components/ChartComponent.html",
+                              "tf": 0.04
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "z": {
+          "docs": {},
+          "o": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "m": {
+                "docs": {
+                  "overview.html": {
+                    "ref": "overview.html",
+                    "tf": 0.1111111111111111
+                  },
+                  "modules/ChartModule.html": {
+                    "ref": "modules/ChartModule.html",
+                    "tf": 0.04878048780487805
+                  },
+                  "modules/RebirthChartModule.html": {
+                    "ref": "modules/RebirthChartModule.html",
+                    "tf": 0.037037037037037035
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          "x": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "o": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "t": {
+                    "docs": {
+                      "modules/ChartModule.html": {
+                        "ref": "modules/ChartModule.html",
+                        "tf": 0.07317073170731707
+                      },
+                      "modules/RebirthChartModule.html": {
+                        "ref": "modules/RebirthChartModule.html",
+                        "tf": 0.05555555555555555
+                      },
+                      "components/ChartComponent.html": {
+                        "ref": "components/ChartComponent.html",
+                        "tf": 0.02
+                      },
+                      "injectables/RebirthChartConfig.html": {
+                        "ref": "injectables/RebirthChartConfig.html",
+                        "tf": 0.047619047619047616
+                      }
+                    },
+                    "a": {
+                      "docs": {
+                        "components/ChartComponent.html": {
+                          "ref": "components/ChartComponent.html",
+                          "tf": 0.04
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "f": {
+          "docs": {},
+          "i": {
+            "docs": {},
+            "l": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "modules/ChartModule.html": {
+                    "ref": "modules/ChartModule.html",
+                    "tf": 0.024390243902439025
+                  },
+                  "modules/RebirthChartModule.html": {
+                    "ref": "modules/RebirthChartModule.html",
+                    "tf": 0.018518518518518517
+                  },
+                  "components/ChartComponent.html": {
+                    "ref": "components/ChartComponent.html",
+                    "tf": 0.02
+                  },
+                  "injectables/RebirthChartConfig.html": {
+                    "ref": "injectables/RebirthChartConfig.html",
+                    "tf": 0.047619047619047616
+                  },
+                  "coverage.html": {
+                    "ref": "coverage.html",
+                    "tf": 0.043478260869565216
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "r": {
+              "docs": {},
+              "r": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "modules/RebirthChartModule.html": {
+                          "ref": "modules/RebirthChartModule.html",
+                          "tf": 0.018518518518518517
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "t": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "m": {
+              "docs": {},
+              "p": {
+                "docs": {},
+                "l": {
+                  "docs": {},
+                  "a": {
+                    "docs": {},
+                    "t": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "u": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "l": {
+                              "docs": {
+                                "components/ChartComponent.html": {
+                                  "ref": "components/ChartComponent.html",
+                                  "tf": 0.04
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "y": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "coverage.html": {
+                    "ref": "coverage.html",
+                    "tf": 0.043478260869565216
+                  }
+                }
+              }
+            }
+          }
+        },
+        "v": {
+          "docs": {},
+          "o": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "d": {
+                "docs": {
+                  "components/ChartComponent.html": {
+                    "ref": "components/ChartComponent.html",
+                    "tf": 0.02
+                  }
+                }
+              }
+            }
+          },
+          "i": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "w": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "n": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "f": {
+                                        "docs": {
+                                          "injectables/RebirthChartConfig.html": {
+                                            "ref": "injectables/RebirthChartConfig.html",
+                                            "tf": 0.047619047619047616
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "length": 172
+    },
+    "corpusTokens": [
+      "0",
+      "0/0",
+      "0/1",
+      "1",
+      "2",
+      "angular/common",
+      "angular/cor",
+      "angular2",
+      "bar",
+      "bootstrap",
+      "brows",
+      "browser",
+      "build",
+      "changedetect",
+      "changedetectionstrategi",
+      "changedetectionstrategy.onpush",
+      "chart",
+      "chart.compon",
+      "chart.component.html",
+      "chart.component.scss",
+      "chart.config",
+      "chart.config.t",
+      "chart.module.t",
+      "chartcompon",
+      "chartmodul",
+      "class",
+      "commonmodul",
+      "compon",
+      "coverag",
+      "declar",
+      "deploy",
+      "doc",
+      "docs:deploy",
+      "document",
+      "export",
+      "exporta",
+      "file",
+      "forroot",
+      "https://greengerong.github.io/ng2",
+      "https://greengerong.github.io/rebirth",
+      "identifi",
+      "implement",
+      "import",
+      "index",
+      "info",
+      "inject",
+      "line",
+      "link",
+      "locale_id",
+      "match",
+      "metadata",
+      "modul",
+      "modulewithprovid",
+      "ngmodul",
+      "ngondestroy",
+      "npm",
+      "ondestroy",
+      "out",
+      "overview",
+      "pie",
+      "plugin",
+      "project",
+      "provid",
+      "re",
+      "readm",
+      "rebirth",
+      "rebirth/chart",
+      "rebirth/ui",
+      "rebirthchartconfig",
+      "rebirthchartmodul",
+      "rebith",
+      "reset",
+      "result",
+      "return",
+      "run",
+      "selector",
+      "serv",
+      "sourc",
+      "src/app/exports/chart/chart.component.t",
+      "src/app/exports/chart/chart.module.t",
+      "src/app/exports/rebirth",
+      "start",
+      "statement",
+      "static",
+      "styleurl",
+      "support",
+      "svg",
+      "templateurl",
+      "type",
+      "ui",
+      "useclass",
+      "viewcontainerref",
+      "void",
+      "zoom"
+    ],
+    "pipeline": [
+      "trimmer",
+      "stopWordFilter",
+      "stemmer"
+    ]
+  },
+  "store": {
+    "index.html": {
+      "url": "index.html",
+      "title": "readme - index",
+      "body": "\n                   \n@Rebirth/Chart\n##########################\n\nAngular2 UI plugin with bootstrap;\n\n\n@Rebirth/Chart link: https://greengerong.github.io/rebirth-chart/\n\n@Rebirth/UI link: https://greengerong.github.io/ng2-rebirth-ui/\n\n\n#Components\n[ ] Line Chart\n[ ] Pie Chart*[ ] Bar Chart\nBuild\n\nRun serve: npm start\n\nDocs deploy: npm run rebith-docs:deploy\n\n\nGet start\n Get start\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "overview.html": {
+      "url": "overview.html",
+      "title": "overview - overview",
+      "body": "\n                   \nOverview\n\n    \n            Your browser does not support SVG\n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n    \n            \n                \n                    \n                        \n                        \n                            2 modules\n                        \n                    \n                \n            \n            \n                \n                    \n                        \n                        1 component\n                    \n                \n            \n            \n                \n                    \n                        \n                        1 injectable\n                    \n                \n            \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "modules.html": {
+      "url": "modules.html",
+      "title": "modules - modules",
+      "body": "\n                   \n\nModules\n\n    \n        \n            \n                \n                    ChartModule\n                \n                \n                    \n                        \n                                Your browser does not support SVG\n                        \n                    \n                    \n                        Browse\n                    \n                \n            \n        \n        \n            \n                \n                    RebirthChartModule\n                \n                \n                    \n                        \n                                Your browser does not support SVG\n                        \n                    \n                    \n                        Browse\n                    \n                \n            \n        \n    \n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "modules/ChartModule.html": {
+      "url": "modules/ChartModule.html",
+      "title": "module - ChartModule",
+      "body": "\n                   \n\n\n  Modules\n  ChartModule\n\n\n\n    \n            Your browser does not support SVG\n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Infos\n    \n    \n        Source\n    \n\n\n\n    \n        \n            File\n        \n        \n            src/app/exports/chart/chart.module.ts\n        \n\n\n        \n            \n                \n                    Declarations\n                    \n                            \n                                ChartComponent\n                            \n                    \n                \n                \n                    Exports\n                    \n                            \n                                    ChartComponent\n                            \n                    \n                \n            \n        \n    \n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { ChartComponent } from './chart.component';\n\n@NgModule({\n  imports: [CommonModule],\n  exports: [\n    ChartComponent,\n  ],\n  declarations: [\n    ChartComponent\n  ],\n  providers: [],\n})\nexport class ChartModule {\n}\n\n    \n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "modules/RebirthChartModule.html": {
+      "url": "modules/RebirthChartModule.html",
+      "title": "module - RebirthChartModule",
+      "body": "\n                   \n\n\n  Modules\n  RebirthChartModule\n\n\n\n    \n            Your browser does not support SVG\n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Infos\n    \n    \n        Source\n    \n\n\n\n    \n        \n            File\n        \n        \n            src/app/exports/rebirth-chart.module.ts\n        \n\n\n        \n            \n                \n                    Imports\n                    \n                            \n                                    ChartModule\n                            \n                    \n                \n                \n                    Exports\n                    \n                            \n                                    ChartModule\n                            \n                    \n                \n            \n        \n    \n    \n        import { NgModule, ModuleWithProviders } from '@angular/core';\nimport { ChartModule } from './chart';\nimport { RebirthChartConfig } from './rebirth-chart.config';\n\n\n@NgModule({\n  imports: [\n    ChartModule,\n  ],\n  exports: [\n    ChartModule,\n  ],\n  declarations: [],\n  providers: [],\n})\nexport class RebirthChartModule {\n\n  static forRoot(): ModuleWithProviders {\n\n    return {\n      ngModule: RebirthChartModule,\n      providers: [\n        { provide: RebirthChartConfig, useClass: RebirthChartModule }\n      ]\n    };\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "components/ChartComponent.html": {
+      "url": "components/ChartComponent.html",
+      "title": "component - ChartComponent",
+      "body": "\n                   \n\n\n\n  Components\n  ChartComponent\n\n\n\n    \n        \n            Infos\n        \n        \n            README\n        \n        \n            Source\n        \n    \n\n    \n        \n    File\n\n\n    src/app/exports/chart/chart.component.ts\n\n\n\n\n    Metadata\n    \n        \n\n            \n                changeDetection\n                ChangeDetectionStrategy.OnPush\n            \n\n\n\n            \n                exportAs\n                chart\n            \n\n\n\n\n\n\n\n\n            \n                selector\n                re-chart\n            \n\n            \n                styleUrls\n                chart.component.scss\n            \n\n\n\n            \n                templateUrl\n                chart.component.html\n            \n\n\n        \n    \n\n\n\n\n\n\n\n        \n            Chart\nLine Chart\n\n\n\n\n        \n        \n            import { Component, ChangeDetectionStrategy, OnDestroy } from '@angular/core';\n\n@Component({\n  selector: 're-chart',\n  templateUrl: './chart.component.html',\n  styleUrls: ['./chart.component.scss'],\n  changeDetection: ChangeDetectionStrategy.OnPush,\n  exportAs: 'chart'\n})\nexport class ChartComponent implements OnDestroy {\n\n  ngOnDestroy(): void {\n  }\n}\n\n        \n    \n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "injectables/RebirthChartConfig.html": {
+      "url": "injectables/RebirthChartConfig.html",
+      "title": "injectable - RebirthChartConfig",
+      "body": "\n                   \n\n\n\n\n\n  Injectables\n  RebirthChartConfig\n\n\n\n    \n        Infos\n    \n    \n        Source\n    \n\n\n\n    \n        \n            File\n        \n        \n            src/app/exports/rebirth-chart.config.ts\n        \n\n\n\n\n    \n    \n        import { Inject, Injectable, LOCALE_ID, ViewContainerRef } from '@angular/core';\n\n@Injectable()\nexport class RebirthChartConfig {\n\n\n}\n\n    \n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    "coverage.html": {
+      "url": "coverage.html",
+      "title": "coverage - coverage",
+      "body": "\n                   \n\n\n\n\n\n\n\n\n\n\n  Documentation coverage \n\n\n\n    Project\n    0%\n\n\n\n    \n        \n            File\n            Type\n            Identifier\n            Statements\n        \n    \n    \n        \n            \n                src/app/exports/chart/chart.component.ts\n            \n            \n                component\n            \n            \n                ChartComponent\n            \n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                src/app/exports/rebirth-chart.config.ts\n            \n            \n                injectable\n            \n            \n                RebirthChartConfig\n            \n            \n                0 %\n                (0/0)\n            \n        \n    \n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    }
+  }
+}

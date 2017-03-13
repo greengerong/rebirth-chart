@@ -19,6 +19,7 @@ export class ChartComponent implements OnChanges, AfterViewInit, OnDestroy {
   @Input() data: any;
   @Input() options: any;
   @Output() chartCreated = new EventEmitter<ChartComponent>();
+  @Output() canvasClick = new EventEmitter<ChartComponent>();
   @ViewChild('canvas') canvas: ElementRef;
   chart: any;
 
@@ -34,11 +35,40 @@ export class ChartComponent implements OnChanges, AfterViewInit, OnDestroy {
   ngOnChanges(changes: SimpleChanges) {
     if (this.chart && changes['data']) {
       const currentValue = changes['data'].currentValue;
-      ['datasets', 'labels', 'xLabels', 'yLabels'].forEach(key => {
-        this.chart.data[key] = currentValue[key];
-      });
-      this.chart.update();
+      this.updateChartData(currentValue);
     }
+  }
+
+  onCanvasClick($event) {
+    this.canvasClick.emit(this);
+  }
+
+  toBase64Image() {
+    this.chart.toBase64Image();
+  }
+
+  resize() {
+    this.chart.resize();
+  }
+
+  render(duration = 0, lazy = false) {
+    this.chart.render(duration, lazy);
+  }
+
+  update(data: any, duration = 0, lazy = false) {
+    this.updateChartData(data || {});
+    this.chart.update(duration, lazy);
+  }
+
+  stop() {
+    this.chart.stop();
+  }
+
+  private updateChartData(currentValue: any) {
+    ['datasets', 'labels', 'xLabels', 'yLabels'].forEach(key => {
+      this.chart.data[key] = currentValue[key];
+    });
+    this.chart.update();
   }
 
   ngOnDestroy(): void {

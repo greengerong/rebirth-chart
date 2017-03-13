@@ -1,12 +1,17 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 import 'chartjs-plugin-zoom'
 import { ChartComponent } from '../../exports/chart/chart.component';
 
-const formatDate = (item, pattern) => item.toString();
 @Component({
   selector: 're-chart-demo',
   templateUrl: './chart-demo.component.html',
+  styles: [`
+    re-chart{
+     width: 50%;
+     margin: 80px auto;
+    }
+  `],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ChartDemoComponent {

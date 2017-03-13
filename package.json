@@ -73,6 +73,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-remap-istanbul": "^0.2.1",
     "markdown-loader": "^2.0.0",
+    "ng2-rebirth-ui": "0.0.4",
     "npm-run-all": "^4.0.1",
     "protractor": "~5.1.0",
     "run-sequence": "^1.2.2",
@@ -84,8 +85,7 @@
     "typedoc": "^0.5.5",
     "typescript": "~2.1.5",
     "web-animations-js": "^2.2.2",
-    "zone.js": "0.7.6",
-    "ng2-rebirth-ui": "0.0.4"
+    "zone.js": "0.7.6"
   },
   "dependencies": {
     "chart.js": "^2.5.0"

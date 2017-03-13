@@ -4,14 +4,14 @@
 
 ## Welcome
 
-Welcome to `@Rebirth/Chart`. This repo is Angular2 ui library for Bootstrap. And it is being built from scratch in Typescript.
+Welcome to `@Rebirth/Chart`. This repo is Angular2 ui library for Chart.js. And it is being built from scratch in Typescript.
 
 You can check [Demo Showcase](/rebirth-chart) & [API document](/rebirth-chart/compodocs/overview.html).
 
 
 ## Dependencies
 
-`@Rebirth/Chart` is all base on Angular2 and Bootstrap css. It no dependency on jQuery or Bootstrap's JavaScript is required.
+`@Rebirth/Chart` is all base on Angular2 and Chart.js.
 The only required dependencies are:
 
 * [Angular](https://angular.io/) (requires `Angular` version 2.3.1 or higher)
@@ -59,5 +59,7 @@ And use `RebirthChartModule` to declare on your feature module:
     }
 
 ## FAQ
+
+* You can choose `@types/chartjs` for improve your `TypeScript` code.
 
 Please check [github](https://github.com/greengerong/rebirth-chart/issues) issue for your common problems / solutions.

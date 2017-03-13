@@ -58,7 +58,36 @@ export class AppComponent implements OnInit {
         },
         {
           text: 'Components',
-          children: cmpMenus,
+          children: [
+            {
+              text: 'Line Chart',
+              url: 'line'
+            },
+            {
+              text: 'Bar Chart',
+              url: 'bar'
+            },
+            {
+              text: 'Radar Chart',
+              url: 'radar'
+            },
+            {
+              text: 'PolarArea Chart',
+              url: 'polarArea'
+            },
+            {
+              text: 'Pie Chart',
+              url: 'pie'
+            },
+            {
+              text: 'Doughnut Chart',
+              url: 'doughnut'
+            },
+            {
+              text: 'Bubble Chart',
+              url: 'bubble'
+            }
+          ],
           icon: 'glyphicon glyphicon-fire'
         },
         {

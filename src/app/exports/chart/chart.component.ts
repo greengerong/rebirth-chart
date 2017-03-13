@@ -9,8 +9,6 @@ import * as Chart from 'chart.js';
   selector: 're-chart',
   templateUrl: './chart.component.html',
   styleUrls: ['./chart.component.scss'],
-  host: { '[style.display]': '"block"' },
-  changeDetection: ChangeDetectionStrategy.OnPush,
   exportAs: 'chart'
 })
 export class ChartComponent implements OnChanges, AfterViewInit, OnDestroy {

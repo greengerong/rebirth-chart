@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
-import * as Immutable from 'immutable';
+import 'chartjs-plugin-zoom'
 import { ChartComponent } from '../../exports/chart/chart.component';
 
 const formatDate = (item, pattern) => item.toString();

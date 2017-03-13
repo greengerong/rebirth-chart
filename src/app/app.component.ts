@@ -61,31 +61,31 @@ export class AppComponent implements OnInit {
           children: [
             {
               text: 'Line Chart',
-              url: 'line'
+              url: '#line'
             },
             {
               text: 'Bar Chart',
-              url: 'bar'
+              url: '#bar'
             },
             {
               text: 'Radar Chart',
-              url: 'radar'
+              url: '#radar'
             },
             {
               text: 'PolarArea Chart',
-              url: 'polarArea'
+              url: '#polarArea'
             },
             {
               text: 'Pie Chart',
-              url: 'pie'
+              url: '#pie'
             },
             {
               text: 'Doughnut Chart',
-              url: 'doughnut'
+              url: '#doughnut'
             },
             {
               text: 'Bubble Chart',
-              url: 'bubble'
+              url: '#bubble'
             }
           ],
           icon: 'glyphicon glyphicon-fire'

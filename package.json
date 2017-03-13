@@ -88,6 +88,7 @@
     "ng2-rebirth-ui": "0.0.4"
   },
   "dependencies": {
+    "chart.js": "^2.5.0"
   },
   "description": "> Angular2 UI plugin with bootstrap;",
   "bugs": {

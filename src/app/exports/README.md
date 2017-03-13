@@ -15,7 +15,7 @@ You can check [Demo Showcase](/rebirth-chart) & [API document](/rebirth-chart/co
 The only required dependencies are:
 
 * [Angular](https://angular.io/) (requires `Angular` version 2.3.1 or higher)
-* [Bootstrap CSS](http://getbootstrap.com/) (`bootstrap-sass` 3.3.7)
+* [chart.js](http://www.chartjs.org/) (`chart.js` 2.5.0)
 
 
 

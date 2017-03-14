@@ -1,6 +1,6 @@
 # Getting started 
 
-> Angular2 UI plugin with bootstrap
+> Angular2 UI plugin with Chart.js
 
 ## Welcome
 

@@ -62,4 +62,4 @@ And use `RebirthChartModule` to declare on your feature module:
 
 * You can choose `@types/chartjs` for improve your `TypeScript` code.
 
-Please check [github](https://github.com/greengerong/rebirth-chart/issues) issue for your common problems / solutions.
+* Please check [github](https://github.com/greengerong/rebirth-chart/issues) issue for your common problems / solutions.

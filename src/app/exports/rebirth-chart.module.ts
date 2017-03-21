@@ -1,6 +1,5 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { ChartModule } from './chart';
-import { RebirthChartConfig } from './rebirth-chart.config';
 
 
 @NgModule({
@@ -15,13 +14,4 @@ import { RebirthChartConfig } from './rebirth-chart.config';
 })
 export class RebirthChartModule {
 
-  static forRoot(): ModuleWithProviders {
-
-    return {
-      ngModule: RebirthChartModule,
-      providers: [
-        { provide: RebirthChartConfig, useClass: RebirthChartModule }
-      ]
-    };
-  }
 }

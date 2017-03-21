@@ -29,25 +29,8 @@ Once installed you need to import our main module.
 
     import { RebirthChartModule } from 'rebirth-chart';
   
-Then use `RebirthUIModule.forRoot()` to declare on your root module:
+Then use `RebirthUIModule.forRoot()` to declare on your feature module:
 
-    
-    @NgModule({
-      declarations: [
-        AppComponent,
-      ],
-      imports: [
-        BrowserModule,
-        RebirthChartModule.forRoot(),
-      ],
-      providers: [],
-      bootstrap: [AppComponent]
-    })
-    export class AppModule {
-    }
-
-
-And use `RebirthChartModule` to declare on your feature module:
 
     @NgModule({
       imports: [CommonModule, FormsModule, RebirthChartModule],

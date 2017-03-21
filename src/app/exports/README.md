@@ -29,7 +29,7 @@ Once installed you need to import our main module.
 
     import { RebirthChartModule } from 'rebirth-chart';
   
-Then use `RebirthUIModule.forRoot()` to declare on your feature module:
+Then use `RebirthUIModule` to declare on your feature module:
 
 
     @NgModule({

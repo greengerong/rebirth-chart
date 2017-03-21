@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EChartsComponent } from './echarts.component';
+import { ChartComponent } from './chart.component';
 
 @NgModule({
   imports: [CommonModule],
   exports: [
-    EChartsComponent,
+    ChartComponent,
   ],
   declarations: [
-    EChartsComponent
+    ChartComponent
   ],
   providers: [],
 })
-export class EChartsModule {
+export class ChartModule {
 }

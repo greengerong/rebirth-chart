@@ -72,8 +72,8 @@ export class AppComponent implements OnInit {
               url: '#radar'
             },
             {
-              text: 'Instrument Chart',
-              url: '#instrument'
+              text: 'PolarArea Chart',
+              url: '#polarArea'
             },
             {
               text: 'Pie Chart',

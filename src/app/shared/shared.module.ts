@@ -6,7 +6,7 @@ import { DocComponent } from './doc';
 import { DocContentComponent } from './doc/doc-content.component';
 import { DemoConfigService } from './demo/demo-config.service';
 import { ThemeService } from './theme';
-import { RebirthEChartsModule } from '../exports';
+import { RebirthChartModule } from '../exports';
 import { RouterModule } from '@angular/router';
 import { RebirthUIModule } from 'ng2-rebirth-ui';
 
@@ -18,7 +18,7 @@ import { RebirthUIModule } from 'ng2-rebirth-ui';
     HttpModule,
     JsonpModule,
     RebirthUIModule,
-    RebirthEChartsModule
+    RebirthChartModule
   ],
   declarations: [
     DocComponent,

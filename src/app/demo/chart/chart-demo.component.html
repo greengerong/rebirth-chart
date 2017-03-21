@@ -1,0 +1,38 @@
+<div class="chart-demo">
+
+  <section>
+    <h4><a name="line">Line Chart</a></h4>
+    <re-chart type="line" [data]="lineData" (chartCreated)="onChartCreated($event)"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="bar">Bar Chart</a></h4>
+    <re-chart type="bar" [data]="barData"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="radar">Radar Chart</a></h4>
+    <re-chart type="radar" [data]="radarData"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="polarArea">PolarArea Chart</a></h4>
+    <re-chart type="polarArea" [data]="polarAreaData"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="pie">Pie Chart</a></h4>
+    <re-chart type="pie" [data]="pieAreaData"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="doughnut">Doughnut Chart</a></h4>
+    <re-chart type="doughnut" [data]="pieAreaData"></re-chart>
+  </section>
+
+  <section>
+    <h4><a name="bubble">Bubble Chart</a></h4>
+    <re-chart type="bubble" [data]="bubbleData"></re-chart>
+  </section>
+
+</div>

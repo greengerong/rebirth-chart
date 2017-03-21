@@ -4,9 +4,9 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  EChartsDemoModule
+  ChartDemoModule
 } from './demo';
-import { RebirthEChartsModule } from './exports';
+import { RebirthChartModule } from './exports';
 import { RouterModule } from '@angular/router';
 import { RebirthUIModule } from 'ng2-rebirth-ui';
 
@@ -18,9 +18,9 @@ import { RebirthUIModule } from 'ng2-rebirth-ui';
     BrowserModule,
     RouterModule.forRoot([]),
     SharedModule.forRoot(),
-    RebirthEChartsModule.forRoot(),
+    RebirthChartModule.forRoot(),
     RebirthUIModule.forRoot(),
-    EChartsDemoModule,
+    ChartDemoModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

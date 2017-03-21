@@ -1,6 +1,6 @@
 import { Injectable, Type } from '@angular/core';
 import {
-  EChartsDemoComponent
+  ChartDemoComponent
   // component import
 } from '../../demo';
 
@@ -12,12 +12,12 @@ export class DemoConfigService {
 
   components: { name: string, cmp: Type<any>, directory?: string, readMe?: string, html?: string, ts?: string }[] = [
     {
-      name: 'Echarts',
-      directory: 'echarts',
-      cmp: EChartsDemoComponent,
-      readMe: require('!html-loader!markdown-loader!../../exports/echarts/README.md'),
-      html: require('!raw-loader!../../demo/echarts/echarts-demo.component.html'),
-      ts: require('!raw-loader!../../demo/echarts/echarts-demo.component.ts'),
+      name: 'Chart',
+      directory: 'chart',
+      cmp: ChartDemoComponent,
+      readMe: require('!html-loader!markdown-loader!../../exports/chart/README.md'),
+      html: require('!raw-loader!../../demo/chart/chart-demo.component.html'),
+      ts: require('!raw-loader!../../demo/chart/chart-demo.component.ts'),
     },
     // component declare
   ];

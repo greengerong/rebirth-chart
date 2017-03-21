@@ -1,2 +1,2 @@
-export * from './echarts';
+export * from './chart';
 

@@ -1,21 +1,21 @@
 # Getting started 
 
-> Angular2 UI plugin with Chart.js
+> Angular2 UI plugin with ECharts
 
 ## Welcome
 
-Welcome to `@Rebirth/Chart`. This repo is Angular2 ui library for Chart.js. And it is being built from scratch in Typescript.
+Welcome to `@Rebirth/ECharts`. This repo is Angular2 ui library for ECharts. And it is being built from scratch in Typescript.
 
 You can check [Demo Showcase](/rebirth-chart) & [API document](/rebirth-chart/compodocs/overview.html).
 
 
 ## Dependencies
 
-`@Rebirth/Chart` is all base on Angular2 and Chart.js.
+`@Rebirth/ECharts` is all base on Angular2 and Chart.js.
 The only required dependencies are:
 
 * [Angular](https://angular.io/) (requires `Angular` version 2.3.1 or higher)
-* [chart.js](http://www.chartjs.org/) (`chart.js` 2.5.0)
+* [ECharts](http://echarts.baidu.com/index.html) (`ECharts` 3.4.0)
 
 
 
@@ -23,43 +23,25 @@ The only required dependencies are:
 
 After installing the above dependencies, install `@Rebirth/UI` via: 
   
-    npm install --save rebirth-chart
+    npm install --save rebirth-echarts
   
 Once installed you need to import our main module.
 
-    import { RebirthChartModule } from 'rebirth-chart';
+    import { RebirthEChartsModule } from 'rebirth-echarts';
   
-Then use `RebirthUIModule.forRoot()` to declare on your root module:
-
-    
-    @NgModule({
-      declarations: [
-        AppComponent,
-      ],
-      imports: [
-        BrowserModule,
-        RebirthChartModule.forRoot(),
-      ],
-      providers: [],
-      bootstrap: [AppComponent]
-    })
-    export class AppModule {
-    }
-
-
-And use `RebirthChartModule` to declare on your feature module:
+Then use `RebirthEChartsModule` to declare on your feature module:
 
     @NgModule({
-      imports: [CommonModule, FormsModule, RebirthChartModule],
+      imports: [CommonModule, FormsModule, RebirthEChartsModule],
       exports: [DemoComponent],
       declarations: [DemoComponent],
       providers: [],
     })
     export class DemoModule {
+    
     }
 
 ## FAQ
 
-* You can choose `@types/chartjs` for improve your `TypeScript` code.
 
-* Please check [github](https://github.com/greengerong/rebirth-chart/issues) issue for your common problems / solutions.
+* Please check [github](https://github.com/greengerong/rebirth-echarts/issues) issue for your common problems / solutions.

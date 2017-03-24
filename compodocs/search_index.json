@@ -24,15 +24,14 @@
           "doc",
           "docs:deploy",
           "echart",
-          "https://greengerong.github.io/ng2",
           "https://greengerong.github.io/rebirth",
           "index",
           "link",
           "match",
+          "ng",
           "npm",
           "plugin",
           "readm",
-          "rebirth",
           "rebirth/chart",
           "rebirth/echart",
           "rebirth/ui",
@@ -311,7 +310,7 @@
                         "docs": {
                           "index.html": {
                             "ref": "index.html",
-                            "tf": 0.029411764705882353
+                            "tf": 0.030303030303030304
                           }
                         }
                       },
@@ -418,7 +417,7 @@
                   "docs": {
                     "index.html": {
                       "ref": "index.html",
-                      "tf": 0.029411764705882353
+                      "tf": 0.030303030303030304
                     }
                   }
                 }
@@ -501,7 +500,7 @@
                   "docs": {
                     "index.html": {
                       "ref": "index.html",
-                      "tf": 0.029411764705882353
+                      "tf": 0.030303030303030304
                     },
                     "modules/RebirthChartModule.html": {
                       "ref": "modules/RebirthChartModule.html",
@@ -518,7 +517,7 @@
                       "docs": {
                         "index.html": {
                           "ref": "index.html",
-                          "tf": 0.029411764705882353
+                          "tf": 0.030303030303030304
                         },
                         "components/ChartComponent.html": {
                           "ref": "components/ChartComponent.html",
@@ -1191,7 +1190,7 @@
                     "docs": {
                       "index.html": {
                         "ref": "index.html",
-                        "tf": 0.029411764705882353
+                        "tf": 0.030303030303030304
                       }
                     }
                   }
@@ -1226,7 +1225,7 @@
               "docs": {
                 "index.html": {
                   "ref": "index.html",
-                  "tf": 0.029411764705882353
+                  "tf": 0.030303030303030304
                 }
               },
               "s": {
@@ -1247,7 +1246,7 @@
                               "docs": {
                                 "index.html": {
                                   "ref": "index.html",
-                                  "tf": 0.029411764705882353
+                                  "tf": 0.030303030303030304
                                 }
                               }
                             }
@@ -1344,7 +1343,7 @@
                     "docs": {
                       "index.html": {
                         "ref": "index.html",
-                        "tf": 0.029411764705882353
+                        "tf": 0.030303030303030304
                       }
                     }
                   }
@@ -1523,20 +1522,6 @@
                                                                   "docs": {},
                                                                   "/": {
                                                                     "docs": {},
-                                                                    "n": {
-                                                                      "docs": {},
-                                                                      "g": {
-                                                                        "2": {
-                                                                          "docs": {
-                                                                            "index.html": {
-                                                                              "ref": "index.html",
-                                                                              "tf": 0.029411764705882353
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "docs": {}
-                                                                      }
-                                                                    },
                                                                     "r": {
                                                                       "docs": {},
                                                                       "e": {
@@ -1553,7 +1538,7 @@
                                                                                   "docs": {
                                                                                     "index.html": {
                                                                                       "ref": "index.html",
-                                                                                      "tf": 0.058823529411764705
+                                                                                      "tf": 0.09090909090909091
                                                                                     }
                                                                                   }
                                                                                 }
@@ -1812,7 +1797,7 @@
                 "docs": {
                   "index.html": {
                     "ref": "index.html",
-                    "tf": 0.08823529411764706
+                    "tf": 0.09090909090909091
                   }
                 }
               }
@@ -1859,7 +1844,7 @@
                   "docs": {
                     "index.html": {
                       "ref": "index.html",
-                      "tf": 0.058823529411764705
+                      "tf": 0.06060606060606061
                     },
                     "overview.html": {
                       "ref": "overview.html",
@@ -1962,19 +1947,13 @@
         },
         "n": {
           "docs": {},
-          "p": {
-            "docs": {},
-            "m": {
-              "docs": {
-                "index.html": {
-                  "ref": "index.html",
-                  "tf": 0.058823529411764705
-                }
-              }
-            }
-          },
           "g": {
-            "docs": {},
+            "docs": {
+              "index.html": {
+                "ref": "index.html",
+                "tf": 0.030303030303030304
+              }
+            },
             "m": {
               "docs": {},
               "o": {
@@ -2120,6 +2099,17 @@
               }
             }
           },
+          "p": {
+            "docs": {},
+            "m": {
+              "docs": {
+                "index.html": {
+                  "ref": "index.html",
+                  "tf": 0.06060606060606061
+                }
+              }
+            }
+          },
           "e": {
             "docs": {},
             "w": {
@@ -2166,7 +2156,7 @@
                     "docs": {
                       "index.html": {
                         "ref": "index.html",
-                        "tf": 0.029411764705882353
+                        "tf": 0.030303030303030304
                       }
                     }
                   }
@@ -2289,12 +2279,7 @@
                   "t": {
                     "docs": {},
                     "h": {
-                      "docs": {
-                        "index.html": {
-                          "ref": "index.html",
-                          "tf": 0.029411764705882353
-                        }
-                      },
+                      "docs": {},
                       "/": {
                         "docs": {},
                         "c": {
@@ -2309,7 +2294,7 @@
                                   "docs": {
                                     "index.html": {
                                       "ref": "index.html",
-                                      "tf": 0.058823529411764705
+                                      "tf": 0.06060606060606061
                                     }
                                   }
                                 }
@@ -2331,7 +2316,7 @@
                                     "docs": {
                                       "index.html": {
                                         "ref": "index.html",
-                                        "tf": 0.029411764705882353
+                                        "tf": 0.030303030303030304
                                       }
                                     }
                                   }
@@ -2346,7 +2331,7 @@
                             "docs": {
                               "index.html": {
                                 "ref": "index.html",
-                                "tf": 0.029411764705882353
+                                "tf": 0.030303030303030304
                               }
                             }
                           }
@@ -2406,7 +2391,7 @@
                     "docs": {
                       "index.html": {
                         "ref": "index.html",
-                        "tf": 0.058823529411764705
+                        "tf": 0.06060606060606061
                       },
                       "overview.html": {
                         "ref": "overview.html",
@@ -2536,7 +2521,7 @@
               "docs": {
                 "index.html": {
                   "ref": "index.html",
-                  "tf": 0.058823529411764705
+                  "tf": 0.06060606060606061
                 }
               }
             }
@@ -2552,7 +2537,7 @@
                 "docs": {
                   "index.html": {
                     "ref": "index.html",
-                    "tf": 0.029411764705882353
+                    "tf": 0.030303030303030304
                   }
                 }
               }
@@ -2599,7 +2584,7 @@
                   "docs": {
                     "index.html": {
                       "ref": "index.html",
-                      "tf": 0.08823529411764706
+                      "tf": 0.09090909090909091
                     }
                   }
                 }
@@ -2988,7 +2973,7 @@
             "docs": {
               "index.html": {
                 "ref": "index.html",
-                "tf": 0.058823529411764705
+                "tf": 0.030303030303030304
               }
             }
           },
@@ -4164,7 +4149,7 @@
           }
         }
       },
-      "length": 217
+      "length": 216
     },
     "corpusTokens": [
       "0",
@@ -4224,7 +4209,6 @@
       "global",
       "height",
       "http://www.chartjs.org",
-      "https://greengerong.github.io/ng2",
       "https://greengerong.github.io/rebirth",
       "identifi",
       "implement",
@@ -4240,6 +4224,7 @@
       "method",
       "modul",
       "new",
+      "ng",
       "ngafterviewinit",
       "ngmodul",
       "ngonchanges(chang",
@@ -4262,7 +4247,6 @@
       "provid",
       "re",
       "readm",
-      "rebirth",
       "rebirth/chart",
       "rebirth/echart",
       "rebirth/ui",
@@ -4332,7 +4316,7 @@
     "index.html": {
       "url": "index.html",
       "title": "readme - index",
-      "body": "\n                   \n@Rebirth/Chart\n##########################\n\nAngular2 UI plugin with Chart.js;\n\n\n@Rebirth/Chart link: https://greengerong.github.io/rebirth-chart/\n\n@Rebirth/ECharts link: https://greengerong.github.io/rebirth-echarts/\n\n@Rebirth/UI link: https://greengerong.github.io/ng2-rebirth-ui/\n\n\nBuild\n\nRun serve: npm start\n\nDocs deploy: npm run docs:deploy\n\n\nGet start\n Get start\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+      "body": "\n                   \n@Rebirth/Chart\n##########################\n\nAngular2 UI plugin with Chart.js;\n\n\n@Rebirth/Chart link: https://greengerong.github.io/rebirth-chart/\n\n@Rebirth/ECharts link: https://greengerong.github.io/rebirth-echarts/\n\n@Rebirth/UI link: https://greengerong.github.io/rebirth-ng/\n\n\nBuild\n\nRun serve: npm start\n\nDocs deploy: npm run docs:deploy\n\n\nGet start\n Get start\n\n\n\n\n\n\n\n\n\n\n\n                   \n    \n         results matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
     },
     "overview.html": {
       "url": "overview.html",

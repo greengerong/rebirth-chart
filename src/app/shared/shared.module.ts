@@ -8,7 +8,7 @@ import { DemoConfigService } from './demo/demo-config.service';
 import { ThemeService } from './theme';
 import { RebirthChartModule } from '../exports';
 import { RouterModule } from '@angular/router';
-import { RebirthUIModule } from 'ng2-rebirth-ui';
+import { RebirthNGModule } from 'rebirth-ng';
 
 @NgModule({
   imports: [
@@ -17,7 +17,7 @@ import { RebirthUIModule } from 'ng2-rebirth-ui';
     RouterModule,
     HttpModule,
     JsonpModule,
-    RebirthUIModule,
+    RebirthNGModule,
     RebirthChartModule
   ],
   declarations: [

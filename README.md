@@ -1,6 +1,6 @@
 # @Rebirth/Chart
 ##########################
-> Angular2 UI plugin with Chart.js;
+> Angular4 UI plugin with Chart.js;
 
 * @Rebirth/Chart link: [https://greengerong.github.io/rebirth-chart/](http://greengerong.github.io/rebirth-chart/)
 

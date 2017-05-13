@@ -1,17 +1,17 @@
 # Getting started 
 
-> Angular2 UI plugin with Chart.js
+> Angular4 UI plugin with Chart.js
 
 ## Welcome
 
-Welcome to `@Rebirth/Chart`. This repo is Angular2 ui library for Chart.js. And it is being built from scratch in Typescript.
+Welcome to `@Rebirth/Chart`. This repo is Angular4 ui library for Chart.js. And it is being built from scratch in Typescript.
 
 You can check [Demo Showcase](/rebirth-chart) & [API document](/rebirth-chart/compodocs/overview.html).
 
 
 ## Dependencies
 
-`@Rebirth/Chart` is all base on Angular2 and Chart.js.
+`@Rebirth/Chart` is all base on Angular4 and Chart.js.
 The only required dependencies are:
 
 * [Angular](https://angular.io/) (requires `Angular` version 4.0.0 or higher)

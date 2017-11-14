@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewContainerRef, Renderer, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewContainerRef, ElementRef, Renderer2 } from '@angular/core';
 import { DemoConfigService } from './shared/demo/demo-config.service';
 import { ActivatedRoute } from '@angular/router';
 import { ThemeService } from './shared';
@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
               private demoConfigService: DemoConfigService,
               private  router: ActivatedRoute,
               private  themeService: ThemeService,
-              private  renderer: Renderer,
+              private  renderer: Renderer2,
               private elementRef: ElementRef) {
 
     this.router.queryParams.subscribe((params: any) => {

@@ -64,8 +64,11 @@ export class ChartComponent implements OnChanges, AfterViewInit, OnDestroy {
   }
 
   private updateChartData(currentValue: any) {
-    ['datasets', 'labels', 'xLabels', 'yLabels'].forEach(key => {
-      this.chart.data[key] = currentValue[key];
+    const optionalDataKeyList = ['datasets', 'labels', 'xLabels', 'yLabels'];
+    optionalDataKeyList.forEach(key => {
+      if (currentValue[key]) {
+        this.chart.data[key] = currentValue[key];
+      }
     });
     this.chart.update();
   }
